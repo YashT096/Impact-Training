@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body style="background-color: violet; ">
+    
+    <h1 ><i>Lottery Checker</i></h1>
+    <script>
+        let n=prompt("Enter the Number from 1 to 10");
+        document.write("<h2>Lottery Number</h2>");
+        lottery = Math.floor(Math.random() * 10);
+        document.write(lottery);
+        if(n==lottery){
+            document.write("<h2> Congratulations! You have won the lottery. </h2>");
+        }
+
+            else{
+                document.write("<h2>Sorry!  Please Try again , You may get luck this time. </h2>");
+            }
+        
+    </script>
+</body>
+</html>

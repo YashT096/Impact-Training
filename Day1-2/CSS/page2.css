@@ -1,0 +1,51 @@
+p{
+    text-align: left ;
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    text-decoration:blue underline;
+}
+a{
+    text-decoration: none;
+}
+#h2{
+    font-weight: bold;
+}
+#h3
+{ font-weight: bolder;}
+#h4{ font-weight: lighter;}
+#one{
+    font-size:25px ;
+}
+#two{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+body {
+    font-family: 'Times New Roman', Times;
+}
+#outer{
+    font-size:25px;
+    text-align:center;
+    border-radius: 50%;
+}
+#inner {
+    font-size:10px;
+}
+div{
+    height: 100px
+    width:50px
+    border-width: 2px;
+    border-style:solid;
+    border-color:black;
+   text-align:center;
+   border-radius:50px;
+}
+#h1{
+    widhth: 100px;
+    height: 50px;
+    border: 2px solid black
+    text-transform: capitalize;
+    text-align: center;
+}
